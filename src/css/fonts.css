@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Butler';
+    font-weight: normal;
+    src: url('fonts/Butler_Regular.eot');
+    src: url('fonts/Butler_Regular.eot') format('embedded-opentype'),
+         url('fonts/Butler_Regular.woff2') format('woff2'),
+         url('fonts/Butler_Regular.woff') format('woff'),
+         url('fonts/Butler_Regular.ttf') format('truetype'),
+         url('fonts/Butler_Regular.svg#Butler_Regular') format('svg');
+}
+@font-face {
+    font-family: 'Butler_Stencil';
+    font-weight: normal;
+    src: url('fonts/Butler_Regular_Stencil.eot');
+    src: url('fonts/Butler_Regular_Stencil.eot') format('embedded-opentype'),
+         url('fonts/Butler_Regular_Stencil.woff2') format('woff2'),
+         url('fonts/Butler_Regular_Stencil.woff') format('woff'),
+         url('fonts/Butler_Regular_Stencil.ttf') format('truetype'),
+         url('fonts/Butler_Regular_Stencil.svg#Butler_Regular_Stencil') format('svg');
+}
+@font-face {
+    font-family: 'Butler';
+	font-weight: lighter;
+    src: url('fonts/Butler_Ultra_Light.eot');
+    src: url('fonts/Butler_Ultra_Light.eot') format('embedded-opentype'),
+         url('fonts/Butler_Ultra_Light.woff2') format('woff2'),
+         url('fonts/Butler_Ultra_Light.woff') format('woff'),
+         url('fonts/Butler_Ultra_Light.ttf') format('truetype'),
+         url('fonts/Butler_Ultra_Light.svg#Butler_Ultra_Light') format('svg');
+}
+@font-face {
+    font-family: 'Butler_Stencil';
+	font-weight: lighter;
+    src: url('fonts/Butler_Ultra_Light_Stencil.eot');
+    src: url('fonts/Butler_Ultra_Light_Stencil.eot') format('embedded-opentype'),
+         url('fonts/Butler_Ultra_Light_Stencil.woff2') format('woff2'),
+         url('fonts/Butler_Ultra_Light_Stencil.woff') format('woff'),
+         url('fonts/Butler_Ultra_Light_Stencil.ttf') format('truetype'),
+         url('fonts/Butler_Ultra_Light_Stencil.svg#Butler_Ultra_Light_Stencil') format('svg');
+}
+
