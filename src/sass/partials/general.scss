@@ -1,0 +1,194 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    color: #F3F4F5;
+    background-color: #EFEFEF;
+}
+
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Butler';
+    font-weight: 700;
+}
+
+#root{
+    height: 100%;
+}
+
+header{
+    flex: 0 0 auto;
+}
+
+.main-content{
+    flex: 1 0 auto;
+    color: #525252;
+    padding: 60px 50px;
+}
+
+footer{
+    flex: 0 0 auto;
+}
+
+.main-container{
+    margin-top: 60px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #222;
+}
+
+.c-hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 96px;
+    height: 96px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background .3s;
+    transition: background .3s
+}
+
+.c-hamburger:focus {
+    outline: 0
+}
+
+.c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 18px;
+    right: 18px;
+    height: 8px;
+    background: #fff
+}
+
+.c-hamburger span::after,.c-hamburger span::before {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+    content: ""
+}
+
+.c-hamburger--htla.is-active span::after,.c-hamburger--htla.is-active span::before,.c-hamburger--htra.is-active span::after,.c-hamburger--htra.is-active span::before {
+    width: 50%
+}
+
+.c-hamburger span::before {
+    top: -20px
+}
+
+.c-hamburger span::after {
+    bottom: -20px
+}
+
+
+
+
+.c-hamburger--htla {
+    background-color: #32dc64
+}
+
+.c-hamburger--htla span {
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+
+.c-hamburger--htla span::before {
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-transition: -webkit-transform .3s,width .3s,top .3s;
+    transition: transform .3s,width .3s,top .3s
+}
+
+.c-hamburger--htla span::after {
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform .3s,width .3s,bottom .3s;
+    transition: transform .3s,width .3s,bottom .3s
+}
+
+.c-hamburger--htla.is-active {
+    background-color: #18903c
+}
+
+.c-hamburger--htla.is-active span {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.c-hamburger--htla.is-active span::before {
+    top: 0;
+    -webkit-transform: translateX(38px)translateY(4px)rotate(45deg);
+    -ms-transform: translateX(38px)translateY(4px)rotate(45deg);
+    transform: translateX(38px)translateY(4px)rotate(45deg)
+}
+
+.c-hamburger--htla.is-active span::after {
+    bottom: 0;
+    -webkit-transform: translateX(38px)translateY(-4px)rotate(-45deg);
+    -ms-transform: translateX(38px)translateY(-4px)rotate(-45deg);
+    transform: translateX(38px)translateY(-4px)rotate(-45deg)
+}
