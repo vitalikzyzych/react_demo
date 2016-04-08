@@ -19,7 +19,7 @@ class Info extends Component {
 			<div className="jumbotron">
 				Info {this.state.count}
 			</div>
-			<button onClick={this.incValue.bind(this)}>Inc</button>
+			<button onClick={this.incValue.bind(this)}>Inc</button>			
 		</div>
 		)
 	}

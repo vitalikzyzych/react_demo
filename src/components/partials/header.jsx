@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
+import Hamburger from 'components/shared/hamburger'
 
 class Header extends Component {
 
@@ -16,6 +17,7 @@ class Header extends Component {
 		                    <span className="icon-bar"></span>
 		                </button>
 		                <Link className="navbar-brand page-scroll" to="/">React Demo</Link>
+		                <Hamburger type="elastic"/>
 		            </div>
 		            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		                <ul className="nav navbar-nav navbar-right">
