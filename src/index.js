@@ -4,7 +4,8 @@ import { render } from 'react-dom'
 import Router from 'react-router';
 import routes from 'routes';
 import AppAction from 'actions/app_actions'
+import Root from 'containers/root';
 
-AppAction.initApp()
+// AppAction.initApp()
 
-render(routes, document.getElementById('root'));
+render(<Root/>, document.getElementById('root'));
