@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AppStore from 'stores/app_store'
 import * as AppActions  from 'actions/app_actions'
 import { connect } from 'react-redux';
 
@@ -18,7 +17,7 @@ class Info extends Component {
 	return (
 		<div>
 			<div className="jumbotron">
-				Info
+				Info {this.props.counter}
 			</div>
 			<button onClick={this.incValue.bind(this)}>Inc</button>			
 		</div>

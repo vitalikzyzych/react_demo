@@ -1,8 +1,8 @@
 import React from 'react';
 import { IndexRoute, Route, Router, browserHistory } from 'react-router';
 import App        from 'components/app';
-import Info       from 'components/info';
-import Profile    from 'components/profile';
+import Info       from 'views/info';
+import Profile    from 'views/profile';
 
 export default (
 	<Route path="/" component={App}>
