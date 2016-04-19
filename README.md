@@ -1,4 +1,4 @@
-# Perceivant-MobileWeb
+# React JS Demo Training
 
 ## Setup
 - `npm install`
@@ -7,7 +7,3 @@
 - start API server
 - `npm start`
 
-## Prod Build
-- update production api BASE_URL constant
-- `npm run build`
-- Output sent to `/dist`
