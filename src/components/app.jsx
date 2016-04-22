@@ -11,7 +11,7 @@ class App extends Component {
       <div className="main-wrapper">
         <Header/>
         <section className="main-content">
-          <div className="container">
+          <div className="container container1">
             <div className="row">
               {this.props.children}
             </div>

@@ -1,5 +1,5 @@
 import AppApi from 'api/app_api'
-import { ActionTypes, AppVars } from 'constants/app_constants'
+import { ActionTypes, AppTypes } from 'constants/app_constants'
 
 export function increase(val) {
   return {

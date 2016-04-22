@@ -4,14 +4,15 @@ const ActionTypes = keyMirror({
 	  INFO: null,
 	  PROFILE: null,
 	  INCREMENT: null,
-	  INITIALIZE: null
+	  INITIALIZE: null,
 	});
-const AppVars = keyMirror(
-	{ CHANGE_EVENT: null
+const AppTypes = keyMirror(
+	{ SIGNIN: null,
+	  SIGNOUT: null,
 	}
 	);
 
 export {
   ActionTypes,
-  AppVars
+  AppTypes,
 }

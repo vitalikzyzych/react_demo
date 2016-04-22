@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { Router } from 'react-router';
 
 import { syncReduxAndRouter, pushPath } from 'redux-simple-router';
-import createBrowserHistory from 'history/lib/createBrowserHistory';
+import { browserHistory } from 'react-router'
 
 import configureStore from 'stores/redux';
 import routes from 'routes';
@@ -14,7 +14,6 @@ import routes from 'routes';
 const store = configureStore();
 
 
-const history = createBrowserHistory();
 
 // syncReduxAndRouter(history, store);
 
@@ -22,7 +21,7 @@ export default class Root extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Router history={history}>
+        <Router history={browserHistory}>
           {routes}
         </Router>
       </Provider>
