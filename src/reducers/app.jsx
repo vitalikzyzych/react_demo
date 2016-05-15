@@ -19,7 +19,7 @@ export default function profile(state = defaultState, action) {
   switch (action.type) {
     case ActionTypes.INITIALIZE : return setValue(state, 0);
     case ActionTypes.INCREMENT  : return setValue(state, action.counter);
-    default                         : return state;
+    default                     : return state;
   }
 
 }

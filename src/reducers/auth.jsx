@@ -16,11 +16,19 @@ function signOut (state) {
     isAuth: false
   };
 }
+function registration (state) {
+  return {
+    ...state,
+    registration: true
+  };
+}
 
 export default function auth (state = defaultState, action){
   switch (action.type) {
     case  AppTypes.SIGNIN : return signIn(state)
     case  AppTypes.SIGNOUT : return signOut(state)
+    case  AppTypes.REGISTRATION : return registration(state)
+    
   }
   
   return state

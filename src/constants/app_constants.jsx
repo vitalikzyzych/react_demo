@@ -9,6 +9,7 @@ const ActionTypes = keyMirror({
 const AppTypes = keyMirror(
 	{ SIGNIN: null,
 	  SIGNOUT: null,
+	  REGISTRATION: null,
 	}
 	);
 

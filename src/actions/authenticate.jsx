@@ -10,3 +10,8 @@ export function signOut(){
     type: AppTypes.SIGNOUT,
   }
 }
+export function registration(){
+  return {
+    type: AppTypes.REGISTRATION,
+  }
+}

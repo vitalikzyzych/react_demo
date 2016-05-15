@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class Profile extends Component {
 
@@ -11,9 +12,7 @@ class Profile extends Component {
           <div className="col-md-6 col-md-offset-3">
             <h2>My Profile</h2>
             <hr />
-            <button className="c-hamburger c-hamburger--htla">
-              <span>toggle menu</span>
-            </button>
+              <RaisedButton label="Primary" primary={true} />
           </div>
         </div>
       </div>
