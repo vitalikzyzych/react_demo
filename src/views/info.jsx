@@ -8,7 +8,6 @@ class Info extends Component {
   }
 
   incValue(){
-
   	this.props.dispatch(AppActions.increase(this.props.counter));
 	console.log(this.props.counter)
   }

@@ -11,7 +11,7 @@ import UnAuthenticated from 'containers/not_authenticated'
 
 export default (
 	<Route path="/" component={App}>
-		<IndexRoute component={Profile} />
+		<IndexRoute component={Authenticated(Profile)} />
 		<Route path="login" component={UnAuthenticated(Login)} />
 		<Route path="registration" component={Registration} />
 		<Route path="profile" component={Profile} />

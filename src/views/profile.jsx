@@ -12,7 +12,7 @@ class Profile extends Component {
           <div className="col-md-6 col-md-offset-3">
             <h2>My Profile</h2>
             <hr />
-              <RaisedButton label="Primary" primary={true} />
+              <RaisedButton label="Primary" primary={true} fullWidth={true} />
           </div>
         </div>
       </div>

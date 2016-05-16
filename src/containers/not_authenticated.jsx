@@ -12,13 +12,11 @@ export default function (ComposedComponent) {
     componentWillMount() {
       if (this.props.auth.isAuth) {
         this.context.router.push('/profile') 
-        //this.props.dispatch(pushPath('/profile'));
       }
     }
     componentWillUpdate(nextProps) {
-      if (!nextProps.auth.isAuth) {
+      if (nextProps.auth.isAuth) {
         this.context.router.push('/profile') 
-        //this.props.dispatch(pushPath('/profile'));
       }    
     }
     render() {

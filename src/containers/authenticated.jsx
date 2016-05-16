@@ -12,12 +12,12 @@ export default function (ComposedComponent) {
     componentWillMount() {
       if (!this.props.auth.isAuth) {
         //this.props.dispatch(pushPath('/'));
-        this.context.router.push('/') 
+        this.context.router.push('/login') 
       }
     }
     componentWillUpdate(nextProps) {
       if (!nextProps.auth.isAuth) {
-        this.context.router.push('/') 
+        this.context.router.push('/login') 
         //this.props.dispatch(pushPath('/'));
       }    
     }

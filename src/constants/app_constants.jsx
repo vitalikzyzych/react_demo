@@ -12,8 +12,9 @@ const AppTypes = keyMirror(
 	  REGISTRATION: null,
 	}
 	);
-
+const BASE_URL = 'http://localhost:8081'
 export {
   ActionTypes,
   AppTypes,
+  BASE_URL
 }
